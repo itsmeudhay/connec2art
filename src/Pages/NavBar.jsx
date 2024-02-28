@@ -67,13 +67,18 @@ const Navbar = () => {
 
               <div
                 className="flex items-center w-full px-6 pb-6 border-b border-gray-100 lg:min-w-max sm:w-max lg:pb-0 lg:border-0 lg:px-0">
-                <a href="#"
+                <Link
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={3000} to="contact" className="px-2 py-1 text-black nav-link hover:text-sky-50"><a href="#"
                   className="flex justify-center items-center w-full sm:w-max px-6 h-12 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear
                     after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 after:bg-[#172554] hover:after:opacity-100 hover:after:scale-[2.5] bg-blue-600 border-transparent hover:border-[#172554] bg-transparent hover:bg-gray-700/20 font-bold py-2 text-fontGreen hover:shadow-lg border-dark-700 border-black border-solid">
                   <span className="relative z-10 text-fontSandal hover:text-white">
                     Get Started
                   </span>
-                </a>
+                </a></Link>
               </div>
             </div>
 

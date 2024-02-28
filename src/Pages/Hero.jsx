@@ -1,4 +1,5 @@
 import AnimatedImage from "../components/image";
+import HeroImage from "/src/assets/pexels-ovan-57690.jpg";
 
 
 
@@ -39,7 +40,7 @@ const Hero = () => {
           </div>
           <div className="relative flex flex-1 max-w-3xl mx-auto lg:w-1/2 lg:h-auto lg:max-w-none lg:mx-0">
           <AnimatedImage
-    src="/src/assets/pexels-ovan-57690.jpg" alt="Hero image" width="2350" height="2350"
+    src={HeroImage} alt="Hero image" width="2350" height="2350"
     className="object-cover shadow-2xl lg:absolute lg:w-full lg:h-full rounded-3xl lg:max-h-none max-h-96 saturate-0 hover:saturate-100"
     />
           </div>

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from "react-scroll";
 
 function AboutUs() {
     return (
@@ -47,7 +48,12 @@ function AboutUs() {
   
         {/* Call to Action */}
         <div className="mt-8 text-center">
-          <button className="btn btn-primary">Ready to connect with us?</button>
+        <Link
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={3000} to="contact" className="px-2 py-1 text-black nav-link hover:text-sky-50"><button className="btn btn-primary">Ready to connect with us?</button></Link>
         </div>
 
         <div className="flex items-center mt-36">

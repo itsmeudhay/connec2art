@@ -1,6 +1,6 @@
-// import DigitalMArketing from "/src/assets/icons/digitalMarketing.png";
-// import GraphicDesign from "/src/assets/icons/graphicDesign.png";
-// import ProductShoot from "/src/assets/icons/productShoot.png";
+import DigitalMArketing from "/src/assets/icons/digitalMarketing.png";
+import GraphicDesign from "/src/assets/icons/graphicDesign.png";
+import ProductShoot from "/src/assets/icons/productShoot.png";
 
 //Animations
 
@@ -47,16 +47,16 @@ export const services = [
     {
       title: "Digital Marketing",
       description: "Drive targeted traffic, engagement, and conversions through strategic online marketing campaigns.",
-      icon: "/src/assets/icons/digitalMarketing.png",
+      icon: DigitalMArketing,
     },
     {
       title: "Graphic Design",
       description: "Create visually appealing and impactful graphics to elevate your brand identity and communication.",
-      icon: "/src/assets/icons/graphicDesign.png",
+      icon: GraphicDesign,
     },
     {
       title: "Product Shoot",
       description: "Increase product understanding, attract customers, and boost sales.",
-      icon: "/src/assets/icons/productShoot.png",
+      icon: ProductShoot,
     },
   ];

@@ -7,7 +7,7 @@ function Contact() {
     return (
         <>
             
-                <div className='flex h-screen '>
+                <div id="contact" className='flex h-screen '>
                     <div className='items-center justify-center flex-1 hidden m-8 mx-8 text-black lg:flex'>
                         <img
                             className="object-cover w-full h-auto"
